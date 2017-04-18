@@ -17,9 +17,10 @@ function GitHub()
     else
 	    echo "ERROR: Remote origin is invalid" && return false;
     fi
+    
     if [[ uname == 'Linux' ]]; then 
     	xdg-open "${url}"
-	elif [[ uname == 'Darwin' ]]; then
+    elif [[ uname == 'Darwin' ]]; then
 		open "${url}"
     fi
 }
