@@ -1,5 +1,5 @@
 # This script is designed to be included in your ~/.bashrc or equivalent file loaded on bash startup.
-# Retrieves the URL for the GitHub page of a project cloned from GitHub and xdg-opens it in the default browser.
+# Retrieves the URL for the GitHub page of a project cloned from GitHub and opens it in the default browser.
 alias github=GitHub
 function GitHub()
 {
